@@ -55,6 +55,7 @@ namespace PingTestWindowsForms
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(213, 21);
             this.textBox1.TabIndex = 1;
+            this.textBox1.Text = "192.168.0.1";
             // 
             // label1
             // 
@@ -90,9 +91,10 @@ namespace PingTestWindowsForms
             // 
             // toolStripStatusLabel2
             // 
+            this.toolStripStatusLabel2.BackColor = System.Drawing.SystemColors.ControlLight;
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(121, 17);
-            this.toolStripStatusLabel2.Text = "toolStripStatusLabel2";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(13, 17);
+            this.toolStripStatusLabel2.Text = "?";
             // 
             // Form1
             // 
